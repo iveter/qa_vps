@@ -164,9 +164,9 @@ TIME_END=$(date)
 
 echo "QA sandbox setup has been completed"
 echo "Now, you need to configure Jenkins and you are ready to go."
-echo "1. Stop your Sandbox with docker-compose down (you need to be in the folder with the configs to do that)"
+echo "1. Stop your sandbox with docker-compose down (you need to be in the folder with the configs to do that)"
 echo "2. Log-in as ${NEW_USER} with password ${NEW_USER_PASSWORD}"
-echo "3. Start Sandbox with docker-compose up -d command"
+echo "3. Start sandbox with docker-compose up -d command"
 
 echo "What's done:"
 echo "Root's password has been updated to '${ROOT_PASS}'"
